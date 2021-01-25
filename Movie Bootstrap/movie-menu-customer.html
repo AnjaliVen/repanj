@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>menu-item-list-customer</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--customized css-->
+    
+
+        <link rel="stylesheet" href="truyum.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!--for adding home icon -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+<div id="headerBackground">
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #fa6225;">
+        <div class="container-fluid navConatiner">
+            <a class="navbar-brand text-white" href="#">
+                <i class="material-icons icon-size " >local_movies</i>
+                Movie Theatre
+              </a>
+            <button type="button" class="navbar-toggler  btn btn-light" data-toggle="collapse" data-target="#myNavbars"
+            aria-controls="myNavbars" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse"  id="myNavbars">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="movie-menu-customer.html">
+                         Menu 
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-white" href="list.html" >
+                       List
+                      </a>
+                  </li>
+                </ul>
+            </div>
+        </div>
+     </nav>
+     <!--search bar-->
+     <div class="container-fluid wrapper align-item-center mb-2" id="searchBar">
+        <h2 id="findFood" class="text-white col-12 mt-5">Find Movies</h2>
+        <div class="search-wrapper input-group mb-1" id="searchbarGrp">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1">
+                  <i class="material-icons icon-size text-dark">live_tv</i>
+                </span>
+              </div>
+              <input type="text" class="form-control" placeholder="Search Food" aria-label="search" aria-describedby="basic-addon1">
+       </div>
+     </div>
+</div>
+	 <style>
+	 #edit{
+		background-color: #fa6225;
+		color: white
+	 }
+	 #price{
+		color: red
+	 }
+	 #headerBackground{
+		height: 300px;
+		margin-bottom:50px;
+		background-image: url("https://images.unsplash.com/photo-1578674473215-9e07ee2e577d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1639&q=80");
+	 }
+	 body{
+		background-image: url("https://images.unsplash.com/photo-1514306191717-452ec28c7814?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80")
+	 }
+	
+	 </style>
+	 
+	 <body>
+	<div class="container-fluid">
+	<div class="card-deck ">
+	
+	
+		<div class="card mr-3 ml-3">
+			<img src="https://jw-webmagazine.com/wp-content/uploads/2020/09/Your-Name-Visual.jpg" class="card-img-top" alt="sandwich" id="pic1">
+			<div class="card-body">
+			<h5 class="card-title text-muted ml-2">Kimi no Na wa <span class="float-right" id="price">₹200</span></h5>
+			<h6>
+			<span class="badge badge-success float-left">Active</span>
+			<small class="text-grey text-muted ml-2">Romance/Fantasy</small>
+			</h6>
+			
+			<div>
+                <small class="text-muted mt-2">
+                <i class="material-icons mt-3" id="schedule">schedule</i>Launch</small>
+                <a href="Add-to-fav-success.html" class="btn mt-4 float-right" id="edit">
+                <i class="material-icons mt-1" id="editbutton">favorite</i> Add to favorites</a>
+                              
+            </div>
+            <small class="text-muted">26/08/2016</small>
+			</div>
+		</div>
+		<div class="card mr-3 ml-3">
+			<img src="https://media.comicbook.com/2020/10/demon-slayer-1242195-1280x0.jpeg" class="card-img-top" alt="sandwich" id="pic1">
+			<div class="card-body">
+			<h5 class="card-title text-muted ml-2">Kimetsu no Yaiba the Movie: Mugen Train<span class="float-right" id="price">₹250</span></h5>
+			<h6>
+			<span class="badge badge-success float-left">Active</span>
+			<small class="text-grey text-muted ml-2">Action/Fantasy</small>
+			</h6>
+			<div>
+                <small class="text-muted mt-2">
+                <i class="material-icons mt-3" id="schedule">schedule</i>Launch</small>
+                <a href="edit-menu-item-validation.html" class="btn mt-4 float-right" id="edit">
+                <i class="material-icons mt-1" id="editbutton">favorite</i> Add to favorites</a>
+                              
+            </div>
+            <small class="text-muted">16/10/2020</small>
+			</div>
+		</div>
+		<div class="card mr-3 ml-3">
+			<img src="https://images.amcnetworks.com/ifccenter.com/wp-content/uploads/2019/12/howls_126_c1081.0021.jpg" class="card-img-top" alt="sandwich" id="pic1">
+			<div class="card-body">
+			<h5 class="card-title text-muted ml-2">Howl's Moving Castle<span class="float-right" id="price">₹150</span></h5>
+			<h6>
+			<span class="badge badge-success float-left">Active</span>
+			<small class="text-grey text-muted ml-2">Fantasy/Adventure</small>
+			</h6>
+			<div>
+                <small class="text-muted mt-2">
+                <i class="material-icons mt-3" id="schedule">schedule</i>Launch</small>
+                <a href="edit-menu-item-validation.html" class="btn mt-4 float-right" id="edit">
+                <i class="material-icons mt-1" id="editbutton">favorite</i> Add to favorites</a>
+                              
+            </div>
+            <small class="text-muted">05/09/2004</small>
+			</div>
+		</div>
+		<div class="card mr-3 ml-3">
+			<img src="https://1.bp.blogspot.com/-0EalGQv2vIo/Vz871aNuRxI/AAAAAAAANsk/dDNUgY_1hgkiI9Dckm7RhobbIEeaHiyEACLcB/s1600/spixdfghtfry.jpg" class="card-img-top" alt="sandwich" id="pic1">
+			<div class="card-body">
+			<h5 class="card-title text-muted ml-2">Spirited Away<span class="float-right" id="price">₹150</span></h5>
+			<h6>
+			<span class="badge badge-danger float-left">Inactive</span>
+			<small class="text-grey text-muted ml-2">Fantasy/Adventure</small>
+			</h6>
+			<div>
+                <small class="text-muted mt-2">
+                <i class="material-icons mt-3" id="schedule">schedule</i>Launch</small>
+                <a href="edit-menu-item-validation.html" class="btn mt-4 float-right" id="edit">
+                <i class="material-icons mt-1" id="editbutton">favorite</i> Add to favorites</a>
+                              
+            </div>
+            <small class="text-muted">20/07/2001</small>
+			</div>
+		</div>
+    </div>
+	</div>
+	<div class="w-25 card-deck mt-2 ml-1">
+	<div class="card mr-3 ml-3">
+			<img src="https://cdn.myanimelist.net/s/common/uploaded_files/1482994548-f9f53687739991f8cba0ed6dee9ee7d3.jpeg" class="card-img-top" alt="sandwich" id="pic1">
+			<div class="card-body">
+			<h5 class="card-title text-muted ml-2">Koe no katachi<span class="float-right" id="price">₹200</span></h5>
+			<h6>
+			<span class="badge badge-success float-left">Active</span>
+			<small class="text-grey text-muted ml-2">Romance/Drama</small>
+			</h6>
+			<div>
+                <small class="text-muted mt-2">
+                <i class="material-icons mt-3" id="schedule">schedule</i>Launch</small>
+                <a href="edit-menu-item-validation.html" class="btn mt-4 float-right" id="edit">
+                <i class="material-icons mt-1" id="editbutton">favorite</i> Add to favorites</a>
+                              
+            </div>
+            <small class="text-muted">17/09/2016</small>
+			</div>
+		</div>
+	</div>
+  
+</body>
+
+</html>
