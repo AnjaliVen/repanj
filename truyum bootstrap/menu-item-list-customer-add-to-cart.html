@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>menu-item-list-customer</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--customized css-->
+    
+
+        <link rel="stylesheet" href="truyum.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!--for adding home icon -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+
+
+	 <style>
+	 #cartbutton{
+		background-color: #fa6225;
+		color: white
+	 }
+	 #price{
+		color: red
+	 }
+	 #headerBackground{
+		height: 300px;
+		margin-bottom:50px;
+		background-image: url("https://images.unsplash.com/photo-1467453678174-768ec283a940?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1028&q=80");
+	 }
+	 #addToCartmsg
+	 {
+		background-color:#ccffcc;
+		color:#008000;
+		border-width:1px;
+		border-style:solid;
+		border-color:#008000;
+		text-align: center;
+	 }
+	 
+	
+	 </style>
+
+<body>
+	
+	
+	
+	
+		<div class="card col-md-3">
+			<img src="https://images.unsplash.com/photo-1528735602780-2552fd46c7af?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1053&q=80" class="card-img-top" alt="sandwich" id="pic1">
+			<div class="card-body">
+			<h5 class="card-title text-muted ml-2">Sandwich    <span class="float-right" id="price">₹99</span></h5>
+			<h6>
+			<span class="badge badge-success float-left">Active</span>
+			<small class="text-grey text-muted ml-2">Main Course</small>
+			<i class="material-icons icon-size float-right" id="local_shipping">local_shipping</i>
+			<span class="badge badge-info float-right mr-1" id="freesymb">FREE</span>
+			</h6>
+			<div id="addToCartmsg" class="p-1 mt-1 message">
+                                <p id="message-text">Item added successfully.</p>
+                            </div>
+			<div>
+                <small class="text-muted mt-2">
+                <i class="material-icons mt-3" id="schedule">schedule</i>Launch</small>
+                <a class="btn mt-4 float-right" id="cartbutton" onclick="FbotonOn()">
+                <i class="material-icons mt-1" id="cartbutton">shopping_cart</i> Add to Cart</a>
+                              
+            </div>
+            <small class="text-muted">15/03/2017</small>
+			</div>
+		</div>
+		
+  
+</body>
+<footer class="text-white text-lg-start container-fluid fixed-bottom">Copyright 2019</footer>
+<script type="text/javascript">
+function FbotonOn() { 
+
+    if(document.getElementById('cartbutton').checked)
+        document.getElementById('texto').innerHTML = "Thank you";
+    else
+        document.getElementById('texto').innerHTML = "Good Bye";
+}
+</script>
+</html>

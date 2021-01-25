@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>menu-item-list-customer</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--customized css-->
+    
+
+        <link rel="stylesheet" href="truyum.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!--for adding home icon -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+<div id="headerBackground">
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #fa6225;">
+        <div class="container-fluid navConatiner">
+            <a class="navbar-brand text-white" href="#">
+                <i class="material-icons icon-size " >local_dining</i>
+                truYum
+              </a>
+            <button type="button" class="navbar-toggler  btn btn-light" data-toggle="collapse" data-target="#myNavbars"
+            aria-controls="myNavbars" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse"  id="myNavbars">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="menuItem-List-customer.html">
+                         Menu Items
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+     </nav>
+     <!--search bar-->
+     <div class="container-fluid wrapper align-item-center mb-2" id="searchBar">
+        <h2 id="findFood" class="text-white col-12 mt-5">Find Food</h2>
+        <div class="search-wrapper input-group mb-1" id="searchbarGrp">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1">
+                  <i class="material-icons icon-size text-dark">local_cafe</i>
+                </span>
+              </div>
+              <input type="text" class="form-control" placeholder="Search Food" aria-label="search" aria-describedby="basic-addon1">
+       </div>
+     </div>
+</div>
+	 <style>
+	 #edit{
+		background-color: #fa6225;
+		color: white
+	 }
+	 #price{
+		color: red
+	 }
+	 #headerBackground{
+		height: 300px;
+		margin-bottom:50px;
+		background-image: url("https://images.unsplash.com/photo-1467453678174-768ec283a940?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1028&q=80");
+	 }
+	 
+	
+	 </style>
+
+<body>
+	<div class="container-fluid">
+	<div class="card-deck ">
+	
+	
+		<div class="card mr-3 ml-3">
+			<img src="https://images.unsplash.com/photo-1528735602780-2552fd46c7af?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1053&q=80" class="card-img-top" alt="sandwich" id="pic1">
+			<div class="card-body">
+			<h5 class="card-title text-muted ml-2">Sandwich    <span class="float-right" id="price">₹99</span></h5>
+			<h6>
+			<span class="badge badge-success float-left">Active</span>
+			<small class="text-grey text-muted ml-2">Main Course</small>
+			<i class="material-icons icon-size float-right" id="local_shipping">local_shipping</i>
+			<span class="badge badge-info float-right mr-1" id="freesymb">FREE</span>
+			</h6>
+			
+			<div>
+                <small class="text-muted mt-2">
+                <i class="material-icons mt-3" id="schedule">schedule</i>Launch</small>
+                <a href="edit-menu-item-validation.html" class="btn mt-4 float-right" id="edit">
+                <i class="material-icons mt-1" id="editbutton">edit</i> Edit</a>
+                              
+            </div>
+            <small class="text-muted">15/03/2017</small>
+			</div>
+		</div>
+		<div class="card mr-3 ml-3">
+			<img src="https://images.unsplash.com/photo-1512152272829-e3139592d56f?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80" class="card-img-top" alt="sandwich" id="pic1">
+			<div class="card-body">
+			<h5 class="card-title text-muted ml-2">Burger    <span class="float-right" id="price">₹129</span></h5>
+			<h6>
+			<span class="badge badge-success float-left">Active</span>
+			<small class="text-grey text-muted ml-2">Main Course</small>
+			</h6>
+			<div>
+                <small class="text-muted mt-2">
+                <i class="material-icons mt-3" id="schedule">schedule</i>Launch</small>
+                <a href="edit-menu-item-validation.html" class="btn mt-4 float-right" id="edit">
+                <i class="material-icons mt-1" id="editbutton">edit</i> Edit</a>
+                              
+            </div>
+            <small class="text-muted">23/12/2017</small>
+			</div>
+		</div>
+		<div class="card mr-3 ml-3">
+			<img src="https://images.unsplash.com/photo-1534308983496-4fabb1a015ee?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1055&q=80" class="card-img-top" alt="sandwich" id="pic1">
+			<div class="card-body">
+			<h5 class="card-title text-muted ml-2">Pizza    <span class="float-right" id="price">₹149</span></h5>
+			<h6>
+			<span class="badge badge-success float-left">Active</span>
+			<small class="text-grey text-muted ml-2">Main Course</small>
+			</h6>
+			<div>
+                <small class="text-muted mt-2">
+                <i class="material-icons mt-3" id="schedule">schedule</i>Launch</small>
+                <a href="edit-menu-item-validation.html" class="btn mt-4 float-right" id="edit">
+                <i class="material-icons mt-1" id="editbutton">edit</i> Edit</a>
+                              
+            </div>
+            <small class="text-muted">21/08/2017</small>
+			</div>
+		</div>
+		<div class="card mr-3 ml-3">
+			<img src="https://images.unsplash.com/photo-1526230427044-d092040d48dc?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80" class="card-img-top" alt="sandwich" id="pic1">
+			<div class="card-body">
+			<h5 class="card-title text-muted ml-2">French Fries    <span class="float-right" id="price">₹57</span></h5>
+			<h6>
+			<span class="badge badge-danger float-left">Inactive</span>
+			<small class="text-grey text-muted ml-2">Starters</small>
+			<i class="material-icons icon-size float-right" id="local_shipping">local_shipping</i>
+			<span class="badge badge-info float-right mr-1" id="freesymb">FREE</span>
+			</h6>
+			<div>
+                <small class="text-muted mt-2">
+                <i class="material-icons mt-3" id="schedule">schedule</i>Launch</small>
+                <a href="edit-menu-item-validation.html" class="btn mt-4 float-right" id="edit">
+                <i class="material-icons mt-1" id="editbutton">edit</i> Edit</a>
+                              
+            </div>
+            <small class="text-muted">02/07/2017</small>
+			</div>
+		</div>
+    </div>
+	</div>
+	<div class="w-25 card-deck mt-2 ml-1">
+	<div class="card mr-3 ml-3">
+			<img src="https://c0.anyrgb.com/images/699/216/baked-pastries-biscuit-cookie-food-brownie-chocolate-dessert-fudge-fruit-pineapple.jpg" class="card-img-top" alt="sandwich" id="pic1">
+			<div class="card-body">
+			<h5 class="card-title text-muted ml-2">Chocolate Brownie<span class="float-right" id="price">₹32</span></h5>
+			<h6>
+			<span class="badge badge-success float-left">Active</span>
+			<small class="text-grey text-muted ml-2">Dessert</small>
+			<i class="material-icons icon-size float-right" id="local_shipping">local_shipping</i>
+			<span class="badge badge-info float-right mr-1" id="freesymb">FREE</span>
+			</h6>
+			<div>
+                <small class="text-muted mt-2">
+                <i class="material-icons mt-3" id="schedule">schedule</i>Launch</small>
+                <a href="edit-menu-item-validation.html" class="btn mt-4 float-right" id="edit">
+                <i class="material-icons mt-1" id="editbutton">edit</i> Edit</a>
+                              
+            </div>
+            <small class="text-muted">15/03/2017</small>
+			</div>
+		</div>
+	</div>
+  
+</body>
