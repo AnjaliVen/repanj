@@ -1,0 +1,2 @@
+module truyum2designpattern {
+}
